@@ -6,11 +6,11 @@
      +
       3) // code readability should be high
  
- console.log("Hitesh")
+ console.log("Ayush")
  
  
- let name = "hitesh"
- let age = 18
+ let name = "Ayush"
+ let age = 21
  let isLoggedIn = false
  let state;
 //  number=> 2 to power 53
