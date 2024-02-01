@@ -26,3 +26,28 @@ const anotherId = Symbol('123')
    console.log("Hello World");
 }
 console.log(typeof myFunction);
+
+
+// ......................Memory and its types
+
+
+let myEmail = "Ayushkumarsingh@gmail.com"
+
+let anotherName = myEmail
+anotherName = "AyushSingh"
+
+console.log(anotherName);
+console.log(myEmail);
+
+let userOne = {
+email: "user@yahoo.com",
+upi: "9431592830@paytm",
+
+
+}
+
+let userTwo = userOne
+
+userTwo.email = "ayush@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
